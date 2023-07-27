@@ -1,0 +1,146 @@
+body {
+    background-color: #343434;
+    font-family: Bitstream Vera Sans, Tahoma, sans-serif;
+    font-size: 11px;
+    color: #757575;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#head, #foot {
+    height: 6%;
+    min-height: 25px;
+    width: 100%;
+    background-color: #222;
+    overflow: hidden;
+}
+
+#head {
+    margin-bottom: 300px;
+}
+
+#foot {
+    margin-top: 320px;
+    text-align: center;
+    padding: 10px;
+}
+
+#maincontent {
+    width: 100%;
+    height: 88%;
+}
+
+#logo {
+    height: 60px;
+    width: 205px;
+    background-repeat: no-repeat;
+    background-position: top left;
+    padding: 50px 0px 0px 0px;
+    text-align: center;
+}
+
+#logo ul {
+    float: left;
+    left: 50%;
+    margin: 0 auto;
+    position: relative;
+}
+
+#logo ul li {
+    float: left;
+    position: relative;
+    right: 50%;
+    margin: 0 1em 0 0;
+    list-style: none;
+}
+
+a {
+    color: #757575;
+    text-decoration: none;
+}
+
+.warning {
+    color: red;
+    font-weight: bold;
+}
+
+table {
+    font-size: inherit;
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 2px;
+    border-color: gray;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+input[type="text"]:invalid,
+input[type="password"]:invalid {
+    border-top-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+    border-right-style: solid 0.5px;
+    border-color: red;
+    background-color: dimgray;
+}
+
+input[type="text"]:valid,
+input[type="password"]:valid {
+    border-top-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+    border-right-style: solid 0.5px;
+    border-color: #67d00b;
+}
+
+.submit {
+    background-color: #4c4c4c;
+    color: white;
+    border: none;
+    padding: 2px 10px 4px 10px;
+    margin: 4px 2px 4px 0px;
+}
+
+input[type="text"],
+input[type="password"] {
+    padding: 1px 3px 1px 3px;
+    font-family: "tahoma", "arial", "helvetica", "sans-serif";
+    font-size: 8pt;
+    color: #ffffff;
+    width: 200px;
+    outline-style: unset;
+    background-color: dimgray;
+}
+
+input[type="password"]:valid {
+    border-top-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+    border-right-style: solid 0.5px;
+    border-color: #67d00b;
+}
+
+input:not([type="range"]):not([type="color"]) {
+    writing-mode: horizontal-tb !important;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+td {
+    display: table-cell;
+    text-align: -webkit-center;
+    vertical-align: middle;
+}

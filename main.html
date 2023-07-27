@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Forum</title>
+</head>
+<body>
+    <div id="head"></div>
+    <table class="layout" id="maincontent">
+        <tbody>
+            <tr>
+                <td id="tabledata">
+                </div>
+                <form class="auth_form" name="login" id="loginform" method="post" action="login.php">
+                    <table class="layout">
+                        <tbody>
+                            <tr>
+                                <td>Username&nbsp;</td>
+                                <td colspan="2">
+                                    <input type="text" name="Username" id="Username" class="inputtext" required="required" maxlength="20" pattern="[A-Za-z0-9_?]{1,20}" autofocus="autofocus">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Password&nbsp;</td>
+                                <td colspan="2">
+                                    <input type="password" name="password" id="password" class="inputtext" required="required" maxlength="100" pattern=".{6,100}" autofocus="autofocus">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>
+                                    <input type="submit" name="login" value="login" class="submit">                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </form>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <div id="foot">
+        <a href="#">Better if you dont know</a>
+    </div>
+</body>
+</html>
